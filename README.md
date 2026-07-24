@@ -1,5 +1,15 @@
 # Page Pulse
 
+
+# 🌐 Live Demo
+
+**Frontend:** https://page-pulse-weld.vercel.app/
+
+**Backend API:** https://page-pulse-n89s.onrender.com
+
+**API Documentation:** https://page-pulse-n89s.onrender.com/docs
+
+
 ## Project Overview
 
 Page Pulse is a lightweight webpage audit tool. Submit a URL through the React interface or the API to retrieve core content, accessibility, and performance signals from its HTML.
@@ -17,11 +27,26 @@ The API returns the following metrics for each audit:
 - Images missing alternative text
 - Visible word count
 
+
+## Screenshots
+
+### Home Page
+
+> Add a screenshot named `homepage.png` inside an `assets` folder.
+
+![Home Page](./assets/homepage.png)
+
+### Audit Result
+
+> Add a screenshot named `result.png` inside the same folder.
+
+![Audit Result](./assets/result.png)
+
 ## Tech Stack
 
 ### Backend
 
-- Python 3.12
+- Python 3.13
 - FastAPI
 - httpx
 - BeautifulSoup4
@@ -165,6 +190,25 @@ frontend/
     pages/        Page-level UI composition
     services/     API client code
 ```
+
+
+## Deployment
+
+### Frontend
+- Vercel
+
+### Backend
+- Render
+
+### Environment Variables
+
+Frontend
+
+- VITE_API_BASE_URL
+
+Backend
+
+- CORS_ALLOW_ORIGINS
 
 ## Design Decisions
 
