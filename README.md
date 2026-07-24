@@ -34,13 +34,13 @@ The API returns the following metrics for each audit:
 
 > Add a screenshot named `homepage.png` inside an `assets` folder.
 
-![Home Page](./assets/homepage.png)
+![Home Page](assets/homepage.png)
 
 ### Audit Result
 
 > Add a screenshot named `result.png` inside the same folder.
 
-![Audit Result](./assets/result.png)
+![Audit Result](assets/result.png)
 
 ## Tech Stack
 
