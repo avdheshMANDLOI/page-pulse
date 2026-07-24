@@ -80,7 +80,7 @@ Open the Vite URL shown in the terminal, normally `http://localhost:5173`.
 ```powershell
 cd backend
 .venv\Scripts\Activate.ps1
-pytest
+python -m pytest -v
 ```
 
 ## API Contract
